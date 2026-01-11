@@ -1,0 +1,183 @@
+/* Responsive CSS for Fitness Company Website */
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .page-hero h1 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        padding-top: 15px;
+    }
+    
+    .nav-link {
+        margin: 5px 0;
+    }
+    
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+    
+    .hero p.lead {
+        font-size: 1.1rem;
+    }
+    
+    .page-hero h1 {
+        font-size: 2.2rem;
+    }
+    
+    .service-card {
+        padding: 20px 15px;
+    }
+    
+    .gallery-image {
+        height: 180px;
+        font-size: 3.5rem;
+    }
+    
+    .footer .col-md-4 {
+        margin-bottom: 30px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .hero {
+        padding: 40px 0;
+    }
+    
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+    
+    #greeting {
+        font-size: 1.5rem;
+    }
+    
+    .hero p.lead {
+        font-size: 1rem;
+    }
+    
+    .hero-image {
+        height: 150px;
+    }
+    
+    .hero-image i {
+        font-size: 80px;
+    }
+    
+    .page-hero {
+        padding: 40px 0;
+    }
+    
+    .page-hero h1 {
+        font-size: 1.8rem;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .service-icon {
+        font-size: 2.5rem;
+    }
+    
+    .gallery-image {
+        height: 150px;
+        font-size: 3rem;
+    }
+    
+    .contact-icon {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .social-icons {
+        justify-content: center;
+    }
+    
+    .map-placeholder {
+        padding: 20px;
+    }
+    
+    .vision-card, .mission-card, .about-sidebar {
+        padding: 20px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    
+    .hero h1 {
+        font-size: 1.6rem;
+    }
+    
+    .btn-lg {
+        padding: 8px 20px;
+        font-size: 1rem;
+    }
+    
+    .service-card h4 {
+        font-size: 1.2rem;
+    }
+    
+    .brand-card h4, .brand-card h5 {
+        font-size: 1rem;
+    }
+    
+    .gallery-card .card-title {
+        font-size: 1.1rem;
+    }
+    
+    .contact-form h2, .contact-info h2 {
+        font-size: 1.5rem;
+    }
+    
+    .faq-section h2 {
+        font-size: 1.5rem;
+    }
+    
+    .footer {
+        padding: 30px 0 15px;
+    }
+    
+    .footer h5 {
+        font-size: 1.1rem;
+    }
+}
+
+/* Print styles */
+@media print {
+    .navbar, .footer, .btn, .social-icons, .map-placeholder {
+        display: none;
+    }
+    
+    body {
+        font-size: 12pt;
+    }
+    
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .hero, .page-hero {
+        background: none !important;
+        color: black;
+        padding: 20px 0;
+    }
+    
+    .hero h1, .page-hero h1 {
+        color: black;
+    }
+}
